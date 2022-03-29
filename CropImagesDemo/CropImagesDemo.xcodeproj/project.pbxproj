@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B3387426ED1F3F002BD139 /* CropImagesDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3386126ED1F3E002BD139 /* CropImagesDemoApp.swift */; };
+		09B3387526ED1F3F002BD139 /* CropImagesDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3386126ED1F3E002BD139 /* CropImagesDemoApp.swift */; };
+		09B3387626ED1F3F002BD139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3386226ED1F3E002BD139 /* ContentView.swift */; };
+		09B3387726ED1F3F002BD139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3386226ED1F3E002BD139 /* ContentView.swift */; };
+		09B3387826ED1F3F002BD139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B3386326ED1F3F002BD139 /* Assets.xcassets */; };
+		09B3387926ED1F3F002BD139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B3386326ED1F3F002BD139 /* Assets.xcassets */; };
+		09B3388426ED2620002BD139 /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 09B3388326ED2620002BD139 /* CropViewController */; };
+		09B3388626ED2620002BD139 /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 09B3388526ED2620002BD139 /* TOCropViewController */; };
+		09B3388826EF3187002BD139 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3388726EF3187002BD139 /* ImagePickerView.swift */; };
+		09B3388926EF3187002BD139 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3388726EF3187002BD139 /* ImagePickerView.swift */; };
+		09B3388B26EF31A0002BD139 /* ImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3388A26EF31A0002BD139 /* ImageCropView.swift */; };
+		09B3388C26EF31A0002BD139 /* ImageCropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B3388A26EF31A0002BD139 /* ImageCropView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09B3386126ED1F3E002BD139 /* CropImagesDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropImagesDemoApp.swift; sourceTree = "<group>"; };
+		09B3386226ED1F3E002BD139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		09B3386326ED1F3F002BD139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09B3386826ED1F3F002BD139 /* CropImagesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropImagesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B3386B26ED1F3F002BD139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B3387026ED1F3F002BD139 /* CropImagesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CropImagesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09B3387226ED1F3F002BD139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09B3387326ED1F3F002BD139 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		09B3388726EF3187002BD139 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		09B3388A26EF31A0002BD139 /* ImageCropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09B3386526ED1F3F002BD139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3388626ED2620002BD139 /* TOCropViewController in Frameworks */,
+				09B3388426ED2620002BD139 /* CropViewController in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B3386D26ED1F3F002BD139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B3385B26ED1F3E002BD139 = {
+			isa = PBXGroup;
+			children = (
+				09B3386026ED1F3E002BD139 /* Shared */,
+				09B3386A26ED1F3F002BD139 /* iOS */,
+				09B3387126ED1F3F002BD139 /* macOS */,
+				09B3386926ED1F3F002BD139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09B3386026ED1F3E002BD139 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				09B3386126ED1F3E002BD139 /* CropImagesDemoApp.swift */,
+				09B3386226ED1F3E002BD139 /* ContentView.swift */,
+				09B3388726EF3187002BD139 /* ImagePickerView.swift */,
+				09B3388A26EF31A0002BD139 /* ImageCropView.swift */,
+				09B3386326ED1F3F002BD139 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		09B3386926ED1F3F002BD139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09B3386826ED1F3F002BD139 /* CropImagesDemo.app */,
+				09B3387026ED1F3F002BD139 /* CropImagesDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09B3386A26ED1F3F002BD139 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				09B3386B26ED1F3F002BD139 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		09B3387126ED1F3F002BD139 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				09B3387226ED1F3F002BD139 /* Info.plist */,
+				09B3387326ED1F3F002BD139 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09B3386726ED1F3F002BD139 /* CropImagesDemo (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B3387C26ED1F3F002BD139 /* Build configuration list for PBXNativeTarget "CropImagesDemo (iOS)" */;
+			buildPhases = (
+				09B3386426ED1F3F002BD139 /* Sources */,
+				09B3386526ED1F3F002BD139 /* Frameworks */,
+				09B3386626ED1F3F002BD139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CropImagesDemo (iOS)";
+			packageProductDependencies = (
+				09B3388326ED2620002BD139 /* CropViewController */,
+				09B3388526ED2620002BD139 /* TOCropViewController */,
+			);
+			productName = "CropImagesDemo (iOS)";
+			productReference = 09B3386826ED1F3F002BD139 /* CropImagesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09B3386F26ED1F3F002BD139 /* CropImagesDemo (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09B3387F26ED1F3F002BD139 /* Build configuration list for PBXNativeTarget "CropImagesDemo (macOS)" */;
+			buildPhases = (
+				09B3386C26ED1F3F002BD139 /* Sources */,
+				09B3386D26ED1F3F002BD139 /* Frameworks */,
+				09B3386E26ED1F3F002BD139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CropImagesDemo (macOS)";
+			productName = "CropImagesDemo (macOS)";
+			productReference = 09B3387026ED1F3F002BD139 /* CropImagesDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09B3385C26ED1F3E002BD139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					09B3386726ED1F3F002BD139 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					09B3386F26ED1F3F002BD139 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 09B3385F26ED1F3E002BD139 /* Build configuration list for PBXProject "CropImagesDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09B3385B26ED1F3E002BD139;
+			packageReferences = (
+				09B3388226ED2620002BD139 /* XCRemoteSwiftPackageReference "TOCropViewController" */,
+			);
+			productRefGroup = 09B3386926ED1F3F002BD139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09B3386726ED1F3F002BD139 /* CropImagesDemo (iOS) */,
+				09B3386F26ED1F3F002BD139 /* CropImagesDemo (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09B3386626ED1F3F002BD139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3387826ED1F3F002BD139 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B3386E26ED1F3F002BD139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3387926ED1F3F002BD139 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09B3386426ED1F3F002BD139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3388B26EF31A0002BD139 /* ImageCropView.swift in Sources */,
+				09B3387626ED1F3F002BD139 /* ContentView.swift in Sources */,
+				09B3388826EF3187002BD139 /* ImagePickerView.swift in Sources */,
+				09B3387426ED1F3F002BD139 /* CropImagesDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09B3386C26ED1F3F002BD139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B3388C26EF31A0002BD139 /* ImageCropView.swift in Sources */,
+				09B3387726ED1F3F002BD139 /* ContentView.swift in Sources */,
+				09B3388926EF3187002BD139 /* ImagePickerView.swift in Sources */,
+				09B3387526ED1F3F002BD139 /* CropImagesDemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09B3387A26ED1F3F002BD139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09B3387B26ED1F3F002BD139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		09B3387D26ED1F3F002BD139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5GN2KM3ZR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nadia-Siddiqah.CropImagesDemo";
+				PRODUCT_NAME = CropImagesDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09B3387E26ED1F3F002BD139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5GN2KM3ZR;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nadia-Siddiqah.CropImagesDemo";
+				PRODUCT_NAME = CropImagesDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09B3388026ED1F3F002BD139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5GN2KM3ZR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nadia-Siddiqah.CropImagesDemo";
+				PRODUCT_NAME = CropImagesDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		09B3388126ED1F3F002BD139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C5GN2KM3ZR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nadia-Siddiqah.CropImagesDemo";
+				PRODUCT_NAME = CropImagesDemo;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09B3385F26ED1F3E002BD139 /* Build configuration list for PBXProject "CropImagesDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B3387A26ED1F3F002BD139 /* Debug */,
+				09B3387B26ED1F3F002BD139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B3387C26ED1F3F002BD139 /* Build configuration list for PBXNativeTarget "CropImagesDemo (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B3387D26ED1F3F002BD139 /* Debug */,
+				09B3387E26ED1F3F002BD139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09B3387F26ED1F3F002BD139 /* Build configuration list for PBXNativeTarget "CropImagesDemo (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09B3388026ED1F3F002BD139 /* Debug */,
+				09B3388126ED1F3F002BD139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09B3388226ED2620002BD139 /* XCRemoteSwiftPackageReference "TOCropViewController" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/TimOliver/TOCropViewController.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09B3388326ED2620002BD139 /* CropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09B3388226ED2620002BD139 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = CropViewController;
+		};
+		09B3388526ED2620002BD139 /* TOCropViewController */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09B3388226ED2620002BD139 /* XCRemoteSwiftPackageReference "TOCropViewController" */;
+			productName = TOCropViewController;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 09B3385C26ED1F3E002BD139 /* Project object */;
+}
