@@ -47,3 +47,50 @@ import UIKit
 //challenge7(input: "a   b   c")
 //challenge7(input: "    a")
 //challenge7(input: "abc")
+
+// MARK: - CHALLENGE 8
+
+//challenge8(input1: "abcde", input2: "eabcd")
+//challenge8(input1: "abcde", input2: "cdeab")
+//challenge8(input1: "abcde", input2: "abced")
+//challenge8(input1: "abc", input2: "a")
+
+// MARK: - CHALLENGE 9
+
+//challenge9(input: "The quick brown fox jumps over the lazy dog")
+//challenge9(input: "The quick brown fox jumped over the lazy dog")
+
+// MARK: - CHALLENGE 10
+
+//challenge10(input: "Swift Coding Challenges")
+//challenge10(input: "Mississippi")
+
+// MARK: - CHALLENGE 11
+
+//challenge11(input1: "Clamp", input2: "Cramp")
+//challenge11(input1: "Clamp", input2: "Crams")
+//challenge11(input1: "Clamp", input2: "Grams")
+//challenge11(input1: "Clamp", input2: "Grans")
+//challenge11(input1: "Clamp", input2: "Clam")
+//challenge11(input1: "clamp", input2: "maple")
+
+// MARK: - CHALLENGE 12
+
+//challenge12(input: "swift switch swill swim")
+//challenge12(input: "flip flap flop")
+
+// MARK: - CHALLENGE 13
+
+//challenge13(input: "aabbcc")
+
+// MARK: - CHALLENGE 14
+
+//challenge14(input: "a")
+//challenge14(input: "ab")
+//challenge14(input: "abc")
+//challenge14(input: "wombat")
+
+// MARK: - CHALLENGE 15
+
+//challenge15(input: "Swift Coding Challenges")
+//challenge15(input: "The quick brown fox")
